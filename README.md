@@ -1,4 +1,4 @@
-Programowanie urządzeń mobilnych laboratorium L_X_ 
+Programowanie urządzeń mobilnych laboratorium L_2_ 
 
 # Dokumentacja projetu: ** Temat projektu**
 
