@@ -1,6 +1,6 @@
 Programowanie urządzeń mobilnych laboratorium L_2_ 
 
-# Dokumentacja projetu: **Aplikacja mobilna wspomagająca zarządzanie pojazdami i monitorowanie jazdy**
+# Dokumentacja projetu: **Aplikacja mobilna wspomagająca zarządzanie pojazdami**
 
 ## Zespoł projetowy:
 _Alicja Dołęga
