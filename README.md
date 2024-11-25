@@ -3,8 +3,8 @@ Programowanie urządzeń mobilnych laboratorium L_2_
 # Dokumentacja projetu: ** Temat projektu**
 
 ## Zespoł projetowy:
-_Mirosław Gągorzelewski
-Grażyna Zeszczecina_
+_Alicja Dołęga
+Aleksander Kret_
 
 ## Opis projektu
 
