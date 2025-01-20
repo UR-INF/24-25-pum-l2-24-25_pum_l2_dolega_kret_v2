@@ -27,18 +27,17 @@ Projekt opiera się na wielofunkcyjnej aplikacji mobilnej dedykowanej kierowcom,
 
 4. Lokalizacja najbliższych stacji benzynowych:
 
-- Przyciski na ekranie GPS umożliwiające szybkie znalezienie najbliższej stacji benzynowej.
-- Integracja z Google Maps lub inną mapą, by umożliwić wytyczenie trasy do wybranej stacji.
+- Integracja z Google Maps by umożliwić wytyczenie trasy do najbliższej stacji benzynowej.
 
 5. Udostępnianie lokalizacji i tras:
 
 - Funkcja pozwalająca na udostępnianie bieżącej lokalizacji znajomym lub rodzinie.
-- Możliwość przesłania pełnej trasy przejazdu (z obliczonym czasem dojazdu) innym użytkownikom aplikacji lub przez SMS.
+- Możliwość przesłania pełnej trasy przejazdu (z obliczonym czasem dojazdu) przez SMS.
 
 6. Historia tras i zużycia paliwa:
 
 - Automatyczne zapisywanie historii przejechanych tras, zużycia paliwa oraz wizyt na stacjach benzynowych.
-- Możliwość przeglądania raportów miesięcznych/spersonalizowanych.
+- Możliwość przeglądania raportów miesięcznych/rocznych.
 
 ## Panele / zakładki aplikacji 
 - Panel logowania
