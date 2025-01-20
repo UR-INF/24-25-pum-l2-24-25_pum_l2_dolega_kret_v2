@@ -52,9 +52,7 @@ Projekt opiera się na wielofunkcyjnej aplikacji mobilnej dedykowanej kierowcom,
 ###### Opis bazy danych
 
 ## Wykorzystane uprawnienia aplikacji do:
-- Kontaktów,
-- Dostęp do plików,
-- Lokalizacji,
-...
+- Internetu
+- Lokalizacji
 
 ## Dane potrzebne do konfiguracji podczas pierwszego uruchomienia (jeśli wymagane)
