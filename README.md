@@ -48,6 +48,7 @@ Projekt opiera się na wielofunkcyjnej aplikacji mobilnej dedykowanej kierowcom,
 
 ## Baza danych
 ###### Diagram ERD
+![PUMDiagramERD](https://github.com/user-attachments/assets/31a952af-f4f2-4ab2-ada9-ae88edbec593)
 
 ###### Opis bazy danych
 1. Tabela users (tabela użytkowników aplikacji):  
