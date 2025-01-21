@@ -50,6 +50,34 @@ Projekt opiera się na wielofunkcyjnej aplikacji mobilnej dedykowanej kierowcom,
 ###### Diagram ERD
 
 ###### Opis bazy danych
+1. Tabela users (tabela użytkowników aplikacji):  
+- userId: Unikalny identyfikator użytkownika (klucz główny).
+- email: Adres e-mail użytkownika.
+password: Hasło użytkownika.
+2. Tabela trips (tabela tras dla danego pojazdu i użytkownika):  
+- tripId: Unikalny identyfikator podróży (klucz główny).
+- startLocation: Miejsce początkowe podróży.
+- destination: Miejsce docelowe podróży.
+- distance: Dystans podróży w kilometrach.
+- fuelUsed: Zużycie paliwa podczas podróży w litrach.
+- date: Data podróży.
+- carName: Nazwa samochodu używanego podczas podróży.
+- userId: Identyfikator użytkownika (klucz obcy odnoszący się do users.userId).
+- vehicleId: Identyfikator pojazdu (klucz obcy odnoszący się do vehicles.vehicleId).
+3. Tabela vehicles (tabela pojazdów danego użytkownika):
+- vehicleId: Unikalny identyfikator pojazdu (klucz główny).
+- brand: Marka pojazdu.
+- model: Model pojazdu.
+- year: Rok produkcji pojazdu.
+- fuelType: Rodzaj paliwa używanego przez pojazd.
+- engineCapacity: Pojemność silnika pojazdu w litrach.
+- fuelConsumption: Zużycie paliwa przez pojazd na 100 km.
+- lastService: Data ostatniego serwisu pojazdu.
+- userId: Identyfikator użytkownika (klucz obcy odnoszący się do users.userId).
+###### Relacje:
+Jeden użytkownik (users) może mieć wiele podróży (trips).
+Jeden użytkownik (users) może mieć wiele pojazdów (vehicles).
+Każda podróż (trips) jest powiązana z jednym użytkownikiem (users) i jednym pojazdem (vehicles).
 
 ## Wykorzystane uprawnienia aplikacji do:
 - Internetu
