@@ -44,7 +44,11 @@ Projekt opiera się na wielofunkcyjnej aplikacji mobilnej dedykowanej kierowcom,
 
 ![image](https://github.com/user-attachments/assets/a271c59d-e3f5-4c74-99b5-7300d4db32a4)
 
-...
+- Strona główna
+
+- Pojazdy
+
+- Historia tras
 
 ## Baza danych
 ###### Diagram ERD
