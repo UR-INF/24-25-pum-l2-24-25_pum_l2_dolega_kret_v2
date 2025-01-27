@@ -112,3 +112,6 @@ Każda podróż (trips) jest powiązana z jednym użytkownikiem (users) i jednym
 - Powiadomień
 
 ## Dane potrzebne do konfiguracji podczas pierwszego uruchomienia (jeśli wymagane)
+Przykładowe dane logowania:
+- login: test@test.pl
+- hasło: 123456
