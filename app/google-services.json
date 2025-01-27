@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "630100188691",
+    "project_id": "appcar-4092a",
+    "storage_bucket": "appcar-4092a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630100188691:android:219e3d32977fd39b1429e6",
+        "android_client_info": {
+          "package_name": "com.example.appcar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoWrnA1oyAsJZn9a4o5tKQXVKD1d_lw2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

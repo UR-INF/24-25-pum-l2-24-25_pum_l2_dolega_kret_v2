@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Programowanie urządzeń mobilnych laboratorium L_2_ 
 
 # Dokumentacja projetu: **Aplikacja mobilna wspomagająca zarządzanie pojazdami**
@@ -115,3 +116,6 @@ Każda podróż (trips) jest powiązana z jednym użytkownikiem (users) i jednym
 Przykładowe dane logowania:
 - login: test@test.pl
 - hasło: 123456
+=======
+"# my_project" 
+>>>>>>> 7a1ef19 (Projekt)

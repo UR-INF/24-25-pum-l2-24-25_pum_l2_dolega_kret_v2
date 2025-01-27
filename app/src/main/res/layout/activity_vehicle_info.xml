@@ -1,0 +1,90 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/background_color"
+    tools:context=".VehicleInfoActivity">
+
+    <!-- Sekcja szczegółów pojazdu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_card"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/vehicle_details_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Szczegóły pojazdu"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text_color"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/vehicle_details_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:fontWeight="700"
+            android:textColor="@color/primary_text_color"
+            android:text="Marka: Brak danych\nModel: Brak danych\nRok: 2020\nTyp paliwa: Benzyna" />
+    </LinearLayout>
+
+    <!-- Sekcja ostatniego przeglądu -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_card"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/last_service_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_text_color"
+            android:text="Ostatni przegląd: Brak danych" />
+
+        <ImageButton
+            android:id="@+id/add_service_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@null"
+            android:src="@drawable/ic_add"
+            android:contentDescription="Dodaj ostatni przegląd"
+            app:tint="@color/primary_color" />
+    </LinearLayout>
+
+    <!-- Sekcja historii tras -->
+    <TextView
+        android:id="@+id/trip_history_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Historia tras:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text_color"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/trip_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:padding="8dp" />
+</LinearLayout>
