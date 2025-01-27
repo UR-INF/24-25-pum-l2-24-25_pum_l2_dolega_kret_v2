@@ -22,7 +22,7 @@ Projekt opiera się na wielofunkcyjnej aplikacji mobilnej dedykowanej kierowcom,
 
 3. Monitorowanie przeglądów technicznych:
 
-- Możliwość zapisania daty ostatniego przeglądu technicznego oraz ustawienia przypomnienia o nadchodzącym terminie kolejnego.
+- Możliwość zapisania daty ostatniego przeglądu technicznego.
 - Powiadomienia push przypominające użytkownikowi o zbliżającym się przeglądzie.
 
 4. Lokalizacja najbliższych stacji benzynowych:
@@ -46,11 +46,11 @@ Projekt opiera się na wielofunkcyjnej aplikacji mobilnej dedykowanej kierowcom,
 
 - Strona główna
 
-![image](https://github.com/user-attachments/assets/eeff7473-4e2c-494a-9c2e-458275444afd)
+![image](https://github.com/user-attachments/assets/6dc984e0-6fe8-424e-8589-4988469897ac)
 
 - Pojazdy
 
-![image](https://github.com/user-attachments/assets/0a5df67c-88bd-449d-af36-f44fff5a315a)
+![image](https://github.com/user-attachments/assets/531e329d-2415-4d6e-8726-588b3a4d07e2)
 
 - Historia tras
 
