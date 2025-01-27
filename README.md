@@ -52,6 +52,22 @@ Projekt opiera się na wielofunkcyjnej aplikacji mobilnej dedykowanej kierowcom,
 
 ![image](https://github.com/user-attachments/assets/531e329d-2415-4d6e-8726-588b3a4d07e2)
 
+- Informacja o danym pojeździe
+
+![image](https://github.com/user-attachments/assets/76b453a0-fa2c-4676-86ea-146b12791ac2)
+
+- Edytowanie danego pojazdu
+
+![image](https://github.com/user-attachments/assets/3c1ae838-4003-422d-9b0b-892e4901c52b)
+
+- Dodawanie pojazdu
+
+![image](https://github.com/user-attachments/assets/5bc5c18c-44a3-41ac-81e8-2d72a7cbc5df)
+
+- Wybieranie trasy danym pojazdem i obliczanie zużytego paliwa/dystansu
+
+![image](https://github.com/user-attachments/assets/535c63bd-e7fd-4c75-a90c-433afa80d7df)
+
 - Historia tras
 
 ![image](https://github.com/user-attachments/assets/9aaa8844-0405-4d2b-aa62-a122dfae659b)
