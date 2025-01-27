@@ -1,0 +1,123 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Pole Marka pojazdu -->
+        <EditText
+            android:id="@+id/edit_brand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Marka pojazdu"
+            android:background="@drawable/rounded_card"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:minHeight="48dp" />
+
+        <!-- Pole Model pojazdu -->
+        <EditText
+            android:id="@+id/edit_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Model: X5"
+            android:background="@drawable/rounded_card"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Pole Rok produkcji -->
+        <EditText
+            android:id="@+id/edit_year"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Rok produkcji"
+            android:background="@drawable/rounded_card"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Pole Pojemność silnika -->
+        <EditText
+            android:id="@+id/edit_engine_capacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Pojemność silnika (litry)"
+            android:background="@drawable/rounded_card"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Pole Rodzaj paliwa -->
+        <EditText
+            android:id="@+id/edit_fuel_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Rodzaj paliwa"
+            android:background="@drawable/rounded_card"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:minHeight="48dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Pole Spalanie -->
+        <EditText
+            android:id="@+id/edit_fuel_consumption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Spalanie (l/100 km)"
+            android:background="@drawable/rounded_card"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColorHint="@android:color/darker_gray"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <!-- Przycisk Zapisz -->
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Zapisz"
+            android:backgroundTint="@color/primary_color"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>

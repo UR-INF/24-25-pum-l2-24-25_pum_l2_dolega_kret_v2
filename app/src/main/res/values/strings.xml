@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AppCar</string>
+    <string name="login">Login</string>
+    <string name="username">Nazwa</string>
+    <string name="password">Hasło</string>
+    <string name="login_button">Logowanie</string>
+    <string name="register_button">Rejestracja</string>
+    <string name="email">Email</string>
+    <string name="sedanDescription">To jest Sedan.</string>
+    <string name="vehicle_image_description">Zdjęcie auta</string>
+    <string name="gps_button">GPS Przycisk</string>
+    <string name="edit_vehicle">Edytuj pojazd</string>
+    <string name="info_vehicle">Informacje o pojeździe</string>
+    <string name="refresh_vehicle">Odśwież pojazd</string>
+    <string name="delete_button">Usun</string>
+
+</resources>
