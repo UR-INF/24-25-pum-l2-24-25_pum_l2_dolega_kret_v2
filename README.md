@@ -93,5 +93,6 @@ Każda podróż (trips) jest powiązana z jednym użytkownikiem (users) i jednym
 ## Wykorzystane uprawnienia aplikacji do:
 - Internetu
 - Lokalizacji
+- Powiadomień
 
 ## Dane potrzebne do konfiguracji podczas pierwszego uruchomienia (jeśli wymagane)
